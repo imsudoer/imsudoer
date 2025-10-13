@@ -49,22 +49,22 @@ We are a team of developers creating innovative solutions in technology. Our goa
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=xNoBanOnlyZXC&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=xNoBanOnlyZXC&theme=radical" alt="Streak Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=imsudoer&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=imsudoer&theme=radical" alt="Streak Stats" />
 </p>
 
 ---
 
 ### 🏆 Achievements
 <p align="center">
-  <a href="https://github.com/xNoBanOnlyZXC">
-    <img src="https://github-profile-trophy.vercel.app/?username=xNoBanOnlyZXC&theme=onedark" alt="GitHub Trophies" />
+  <a href="https://github.com/imsudoer">
+    <img src="https://github-profile-trophy.vercel.app/?username=imsudoer&theme=onedark" alt="GitHub Trophies" />
   </a>
 </p>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=xnobanonlyzxc&show_icons=true&theme=dark)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=imsudoer&show_icons=true&theme=dark)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xnobanonlyzxc&langs_count=5&layout=donut&show_icons=true&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imsudoer&langs_count=5&layout=donut&show_icons=true&theme=dark)
 
 ---
 
