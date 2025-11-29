@@ -45,17 +45,17 @@ PY: flask, jinja2, sqlite3, flask_sqlalchemy, requests
 
 ⚡ OnlySq Cloud | 🇩🇪 DE-garage
 Free and almost unlimited file storage (up to 2GB each)
-🔗 Git (https://github.com/xNoBanOnlyZXC/WebMaxLib)
+🔗 Git (https://github.com/imsudoer/telecloud)
 PY: websockets
 
 MicroOS
 The project is open source, designed for microcontrollers of the ESP family. It is an attempt to write my own *NIX-like OS for microcontrollers.
-🔗 Git (https://github.com/xNoBanOnlyZXC/MicroOS)
+🔗 Git (https://github.com/imsudoer/MicroOS)
 PY: arduino
 
 ❄️ ModHash
 Telegram userbot with the ability to connect custom modules. It has 3 versions of the module loader, author\'s soundcloud modules and many experiments. Documented. Abandoned. New project - TeleBox.
-🔗 Git (https://github.com/xNoBanOnlyZXC/ModHash)
+🔗 Git (https://github.com/imsudoer/ModHash)
 PY: pyrogram
 
 ⚡️ My servers
