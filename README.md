@@ -1,93 +1,76 @@
-# 👾 ~$ sudo++
-
-![About.me Badge](https://img.shields.io/badge/About.me-333?logo=aboutdotme&logoColor=fff&style=flat-square)
-
-```bash
-echo -e "┌──────────────────────────────────────────────────────────────────────────────┐"
-echo -e "                        ~$ sudo - Software Engineer                             "
-echo -e "                  Python | C++ | Web Development | AI APIs                      "
-echo -e "└──────────────────────────────────────────────────────────────────────────────┘"
+```shell
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-152-generic x86_64)
+Last login: Nov 29 14:50:00 2025 from 127.0.0.1
+root@onlysq:~# cat SudoBashev.md
 ```
----
+```shell
+✨ Basic info
+Name: Sudo
+Surname: Bashev
+Birth: 24.12
+Languages: RU, EN
 
-### 💻 Known languages
+🎓 My skills
+PY: asyncio, pyrogram/telebot/aiogram, flask, jinja2, fastapi, gevent, curl_cffi, sqlite3, sqlalchemy, threading, bs4, selenium, etc.
+C/C++: esp-like firmware, IoT
+JS:partly-vibecoded sites backend
+HTML: some sites with jinja2 templates (onlysq.ru)
+Linux: nginx, systemd, atd, cron, ufw, vim, etc.
 
-![C++ Badge](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=fff&style=flat-square)
-![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat-square)
-![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat-square)
-![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square)
-![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat-square)
+🌐 My team
+OnlySq – a team of independent young developers from different regions of Russia. 
+The main projects of the team are made to increase the availability of closed and paid AI networks for ordinary users and developers.
 
----
+Team 1line:
+🇷🇺 @subashev - Andrey "Sudo" 
+🇷🇺 @chepuxcat - Egor "Chepux"
+🇷🇺 @ImSkaiden - Alexey "Skaiden"
 
-### ⚒️ I work with
+Telegram (https://t.me/onlysq)
+Website (https://onlysq.ru/)
+Docs (https://docs.onlysq.ru/)
 
-![Flask Badge](https://img.shields.io/badge/Flask-000?logo=flask&logoColor=fff&style=flat-square)
-![Telegram Badge](https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=fff&style=flat-square)
-![Espressif Badge](https://img.shields.io/badge/Espressif-E7352C?logo=espressif&logoColor=fff&style=flat-square)
+My top-5 projects:
 
-<p>
-  <!-- ESP32 Icon -->
-  <a href="https://espressif.com/" target="_blank"><img src="https://joy-it.net/files/files/Produkte/SBC-NodeMCU-ESP32/SBC-NodeMCU-ESP32-01.png" alt="ESP32" width="40" height="40"/></a>
-</p>
+⚡ OnlySq API | 🇩🇪 DE-garage
+The project is free and closed source. Provides access to all popular AIs through a convenient API. Compatible with OpenAI SDK. Can generate text, photos and sound (TTS).
+🔗 Docs (https://docs.onlysq.ru/)
+PY: flask, curl_cffi, requests, telebot, sqlite3
 
----
+⚡ OnlySq Main Site | 🇩🇪 DE-garage
+Designed to help users and link accounts. Currently in beta. In the future, it will become a control panel for the user, apikey and limits.
+🔗 Link (https://onlysq.ru/)
+JS: jquery
+PY: flask, jinja2, sqlite3, flask_sqlalchemy, requests
 
-### 🌟 Projects
-#### OnlySq Team
-We are a team of developers creating innovative solutions in technology. Our goal is to make technology accessible to everyone! 🚀
+⚡ OnlySq Cloud | 🇩🇪 DE-garage
+Free and almost unlimited file storage (up to 2GB each)
+🔗 Git (https://github.com/xNoBanOnlyZXC/WebMaxLib)
+PY: websockets
 
-#### Web Projects:
-- **HTML/CSS/JS without frameworks:**  
-  Clean code, no unnecessary dependencies. OnlySq API is closedsource now.
+MicroOS
+The project is open source, designed for microcontrollers of the ESP family. It is an attempt to write my own *NIX-like OS for microcontrollers.
+🔗 Git (https://github.com/xNoBanOnlyZXC/MicroOS)
+PY: arduino
 
-#### AI APIs:
-- Free neural networks for data processing and automation tasks.  
-  Documentation: [Docs](https://docs.onlysq.ru).
+❄️ ModHash
+Telegram userbot with the ability to connect custom modules. It has 3 versions of the module loader, author\'s soundcloud modules and many experiments. Documented. Abandoned. New project - TeleBox.
+🔗 Git (https://github.com/xNoBanOnlyZXC/ModHash)
+PY: pyrogram
 
----
+⚡️ My servers
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=imsudoer&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=imsudoer&theme=radical" alt="Streak Stats" />
-</p>
+🇩🇪 DE-garage | VDS | Ryzen 9 5950x 3 vCPU | 6GB RAM | 120GB NVMe | 1GBit/s | 10.19€/mo
+OS: Ubuntu 22.04
+🇩🇪 DEs-garage | VDS | Intel Xeon Gold 6138 1 vCPU | 4GB RAM | 10GB NVMe | 150MBit/s | 1.69€/mo
+OS: Ubuntu 22.04
+🇩🇪 Server | Local | Intel Pentiom G3420 | GT 520 1GB | 8GB RAM | 120 GB SSD + 1TB HDD | 300MBit/s
+OS: Windows Server 2022
+🇷🇺 PC | Local | Ryzen 7 3800x | RTX 2060 12GB | 48GB RAM | 1TB NVMe + 1.3TB HDD | 300MBit/s
+OS: Windows 11
 
----
+⚫️ My socials
 
-### 🏆 Achievements
-<p align="center">
-  <a href="https://github.com/imsudoer">
-    <img src="https://github-profile-trophy.vercel.app/?username=imsudoer&theme=onedark" alt="GitHub Trophies" />
-  </a>
-</p>
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=imsudoer&show_icons=true&theme=dark)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imsudoer&langs_count=5&layout=donut&show_icons=true&theme=dark)
-
----
-
-### 🖥️ System
-
-![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
-![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
-
-![Visual Studio 2022](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-
-![Arduino Badge](https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=fff&style=flat-square)
-![PlatformIO Badge](https://img.shields.io/badge/PlatformIO-F5822A?logo=platformio&logoColor=fff&style=flat-square)
-![C++ Badge](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=fff&style=flat-square)
-
-![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Microsoft PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
-
-![7Zip Badge](https://img.shields.io/badge/7Zip-000?logo=7zip&logoColor=fff&style=flat-square)
-![AdGuard Badge](https://img.shields.io/badge/AdGuard-68BC71?logo=adguard&logoColor=fff&style=flat-square)
-![Obsidian Badge](https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&logoColor=fff&style=flat-square)
-![Firefox Badge](https://img.shields.io/badge/Firefox-FF7139?logo=firefox&logoColor=fff&style=flat-square)
-![OBS Studio Badge](https://img.shields.io/badge/OBS%20Studio-302E31?logo=obsstudio&logoColor=fff&style=flat-square)
-
-<!-- © 2025 ~$ sudo++, OnlySq Team. -->
+👩‍💻 GitHub (https://github.com/imsudoer)
+🎮 Steam (https://steamcommunity.com/id/NoBanOnlyZXC/)
+💬 Telegram (https://t.me/subashev)
