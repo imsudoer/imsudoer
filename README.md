@@ -11,7 +11,8 @@ Birth: 24.12
 Languages: RU, EN
 
 🎓 My skills
-PY: asyncio, pyrogram/telebot/aiogram, flask, jinja2, fastapi, gevent, curl_cffi, sqlite3, sqlalchemy, threading, bs4, selenium, etc.
+PY: asyncio, pyrogram/telebot/aiogram, flask, jinja2, fastapi, gevent,
+curl_cffi, sqlite3, sqlalchemy, threading, bs4, selenium, etc.
 C/C++: esp-like firmware, IoT
 JS:partly-vibecoded sites backend
 HTML: some sites with jinja2 templates (onlysq.ru)
@@ -19,7 +20,8 @@ Linux: nginx, systemd, atd, cron, ufw, vim, etc.
 
 🌐 My team
 OnlySq – a team of independent young developers from different regions of Russia. 
-The main projects of the team are made to increase the availability of closed and paid AI networks for ordinary users and developers.
+The main projects of the team are made to increase the availability of
+closed and paid AI networks for ordinary users and developers.
 
 Team 1line:
 🇷🇺 @subashev - Andrey "Sudo" 
@@ -33,12 +35,14 @@ Docs (https://docs.onlysq.ru/)
 My top-5 projects:
 
 ⚡ OnlySq API | 🇩🇪 DE-garage
-The project is free and closed source. Provides access to all popular AIs through a convenient API. Compatible with OpenAI SDK. Can generate text, photos and sound (TTS).
+The project is free and closed source. Provides access to all popular AIs through a convenient API.
+Compatible with OpenAI SDK. Can generate text, photos and sound (TTS).
 🔗 Docs (https://docs.onlysq.ru/)
 PY: flask, curl_cffi, requests, telebot, sqlite3
 
 ⚡ OnlySq Main Site | 🇩🇪 DE-garage
-Designed to help users and link accounts. Currently in beta. In the future, it will become a control panel for the user, apikey and limits.
+Designed to help users and link accounts. Currently in beta.
+In the future, it will become a control panel for the user, apikey and limits.
 🔗 Link (https://onlysq.ru/)
 JS: jquery
 PY: flask, jinja2, sqlite3, flask_sqlalchemy, requests
@@ -49,12 +53,15 @@ Free and almost unlimited file storage (up to 2GB each)
 PY: websockets
 
 MicroOS
-The project is open source, designed for microcontrollers of the ESP family. It is an attempt to write my own *NIX-like OS for microcontrollers.
+The project is open source, designed for microcontrollers of the ESP family.
+It is an attempt to write my own *NIX-like OS for microcontrollers.
 🔗 Git (https://github.com/imsudoer/MicroOS)
 PY: arduino
 
 ❄️ ModHash
-Telegram userbot with the ability to connect custom modules. It has 3 versions of the module loader, author\'s soundcloud modules and many experiments. Documented. Abandoned. New project - TeleBox.
+Telegram userbot with the ability to connect custom modules.
+It has 3 versions of the module loader, author\'s soundcloud modules and many experiments.
+Documented. Abandoned. New project - TeleBox.
 🔗 Git (https://github.com/imsudoer/ModHash)
 PY: pyrogram
 
