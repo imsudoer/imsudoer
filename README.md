@@ -14,6 +14,7 @@ Languages: RU, EN
 PY: asyncio, pyrogram/telebot/aiogram, flask, jinja2, fastapi, gevent,
 curl_cffi, sqlite3, sqlalchemy, threading, bs4, selenium, etc.
 C/C++: esp-like firmware, IoT
+Kotlin: Studying in progress
 JS:partly-vibecoded sites backend
 HTML: some sites with jinja2 templates (onlysq.ru)
 Linux: nginx, systemd, atd, cron, ufw, vim, etc.
