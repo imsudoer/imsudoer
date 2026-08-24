@@ -4,7 +4,6 @@ import re
 import base64
 import os
 import html
-from bs4 import BeautifulSoup
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
@@ -56,7 +55,6 @@ def fetch_steam_full(custom_id, default_level="10", default_games="10"):
         req2 = urllib.request.Request(html_url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req2, context=ctx, timeout=10) as resp2:
             html_text = resp2.read().decode('utf-8', errors='ignore')
-            soup = BeautifulSoup(html_text, 'html.parser')
             
             lvl_m = re.search(r'<span class="friendPlayerLevelNum">(\\d+)</span>', html_text)
             if lvl_m:
@@ -65,18 +63,11 @@ def fetch_steam_full(custom_id, default_level="10", default_games="10"):
             if gms_m:
                 games_count = gms_m.group(1)
                 
-            recent = soup.find_all('div', class_='recent_game')
-            for r in recent:
-                name_el = r.find('div', class_='game_name')
-                g_name = name_el.get_text(strip=True) if name_el else ""
-                hours_el = r.find('div', class_='game_info_details')
-                g_hours = ""
-                if hours_el:
-                    h_match = re.search(r'([\\d,.]+)\\s*hrs', hours_el.get_text())
-                    if h_match:
-                        g_hours = f"{h_match.group(1)} hrs"
-                if g_name and g_hours:
-                    games_list.append({"name": g_name, "hours": g_hours})
+            names = re.findall(r'<div class="game_name">\\s*<a[^>]*>(.*?)</a>', html_text)
+            details = re.findall(r'<div class="game_info_details">\\s*([\\d,.]+)\\s*hrs on record', html_text)
+            for n, h in zip(names, details):
+                clean_n = html.unescape(n.strip())
+                games_list.append({"name": clean_n, "hours": f"{h} hrs"})
     except Exception as e:
         print(f"Error fetching HTML for {custom_id}: {e}")
         
