@@ -40,23 +40,11 @@
 
 ---
 
-### [//] sudo whoami
+### [//] System Initialization & Profile
 
-```shell
-+----------------------------------------------------------------------------+
-| [SYS] root@vds-garage:~# neofetch --profile imsudoer                       |
-+----------------------------------------------------------------------------+
-|   ___          _                    OS: Ubuntu 22.04 LTS / Arch Linux      |
-|  / _ \_ _  ___| |  __  __ _  ___    Host: DE-garage (Ryzen 9 5950X)        |
-| | (_) | ' \/ -_) | _ \/ _` |(_-<    Kernel: 5.15.0-generic x86_64 / ESP32  |
-|  \___/|_||_\___|_| .__/\__,_|/__/   Uptime: Continuous R&D                 |
-|                  |_|                Shell: bash (augmented via bashboard) |
-|                                     Languages: Rust, Python, C++, TS, Dart |
-|  Sudo Bashev (~$ sudo++)            Focus: Systems, Embedded & Reversing   |
-|  Self-taught developer              Goal: Mastering systems programming    |
-|  Birthday: December 24              Motto: Deep understanding over syntax  |
-+----------------------------------------------------------------------------+
-```
+<div align="center">
+  <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/terminal-card.svg" width="100%" alt="Terminal Profile" />
+</div>
 
 ---
 

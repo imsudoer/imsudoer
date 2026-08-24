@@ -1,0 +1,102 @@
+<svg width="780" height="260" viewBox="0 0 780 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@700;800&amp;display=swap');
+    .term-title { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; fill: #64748b; }
+    .t-cmd { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; fill: #f8fafc; }
+    .t-prompt { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; fill: #38bdf8; }
+    .t-kw { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; fill: #f43f5e; }
+    .t-type { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; fill: #38bdf8; }
+    .t-var { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; fill: #e2e8f0; }
+    .t-str { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; fill: #a3e635; }
+    .t-num { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; fill: #fb923c; }
+    .t-comment { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 400; fill: #475569; font-style: italic; }
+    .badge-txt { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; fill: #38bdf8; }
+  </style>
+
+  <defs>
+    <linearGradient id="term_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0d1424"/>
+      <stop offset="100%" stop-color="#111c30"/>
+    </linearGradient>
+
+    <linearGradient id="term_border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Terminal Window Base -->
+  <rect x="1" y="1" width="778" height="258" rx="14" fill="url(#term_bg)" stroke="url(#term_border)" stroke-width="1.5" />
+
+  <!-- Window Header Bar -->
+  <path d="M1 14C1 6.8203 6.8203 1 14 1H766C773.18 1 779 6.8203 779 14V34H1V14Z" fill="#0f172a" fill-opacity="0.9" />
+  <line x1="1" y1="34" x2="779" y2="34" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Terminal Action Dots -->
+  <circle cx="20" cy="18" r="5" fill="#f43f5e" />
+  <circle cx="36" cy="18" r="5" fill="#fbbf24" />
+  <circle cx="52" cy="18" r="5" fill="#10b981" />
+
+  <!-- Header Title -->
+  <text x="390" y="22" text-anchor="middle" class="term-title">sudo@vds-garage: ~/src/profile.rs</text>
+
+  <!-- Branch Badge -->
+  <g transform="translate(680, 10)">
+    <rect x="0" y="0" width="82" height="17" rx="4" fill="#0369a1" fill-opacity="0.25" stroke="#0284c7" stroke-width="0.8" />
+    <text x="41" y="12" text-anchor="middle" class="badge-txt">main* (2026)</text>
+  </g>
+
+  <!-- Terminal Content Lines (Rust styled struct & execution) -->
+  <g transform="translate(26, 60)">
+    <!-- Line 1: Command prompt -->
+    <text x="0" y="0" class="t-prompt">sudo@garage:~$</text>
+    <text x="135" y="0" class="t-cmd">cargo run --release -- --whoami</text>
+
+    <!-- Line 2: Rust code block -->
+    <text x="0" y="28" class="t-kw">pub struct</text>
+    <text x="85" y="28" class="t-type">SudoBashev</text>
+    <text x="175" y="28" class="t-var">{</text>
+
+    <!-- Line 3: Properties -->
+    <text x="24" y="50" class="t-var">handle:</text>
+    <text x="110" y="50" class="t-str">"~$ sudo++"</text>
+    <text x="220" y="50" class="t-var">,</text>
+    <text x="240" y="50" class="t-comment">// Self-taught systems &amp; backend dev</text>
+
+    <!-- Line 4 -->
+    <text x="24" y="72" class="t-var">stack:</text>
+    <text x="110" y="72" class="t-var">[</text>
+    <text x="120" y="72" class="t-str">"Rust"</text>
+    <text x="175" y="72" class="t-var">,</text>
+    <text x="190" y="72" class="t-str">"Python"</text>
+    <text x="260" y="72" class="t-var">,</text>
+    <text x="275" y="72" class="t-str">"C/C++"</text>
+    <text x="335" y="72" class="t-var">,</text>
+    <text x="350" y="72" class="t-str">"Bash"</text>
+    <text x="400" y="72" class="t-var">,</text>
+    <text x="415" y="72" class="t-str">"TypeScript"</text>
+    <text x="515" y="72" class="t-var">],</text>
+
+    <!-- Line 5 -->
+    <text x="24" y="94" class="t-var">focus:</text>
+    <text x="110" y="94" class="t-str">"Systems programming, ESP32 microcontrollers &amp; reverse engineering"</text>
+    <text x="640" y="94" class="t-var">,</text>
+
+    <!-- Line 6 -->
+    <text x="24" y="116" class="t-var">nodes:</text>
+    <text x="110" y="116" class="t-str">"DE-garage VDS (5950X) + Main PC (3800X) + Vivobook 15"</text>
+    <text x="560" y="116" class="t-var">,</text>
+
+    <!-- Line 7 -->
+    <text x="24" y="138" class="t-var">motto:</text>
+    <text x="110" y="138" class="t-str">"Deep understanding > vibe coding | AI as a second brain"</text>
+
+    <!-- Line 8 -->
+    <text x="0" y="160" class="t-var">}</text>
+
+    <!-- Line 9: Success indicator -->
+    <text x="0" y="184" class="t-str">&#10003; Process finished with exit code 0 (all systems operational)</text>
+  </g>
+</svg>
