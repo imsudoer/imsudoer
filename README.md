@@ -102,6 +102,17 @@
 
 ---
 
+### [//] Project & Knowledge Graph
+
+<div align="center">
+  <a href="https://imsudoer.github.io">
+    <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/projects-graph.svg" width="100%" alt="Obsidian Project Graph" />
+  </a>
+  <p><sub><i>Obsidian-style constellation view • Click any node to open repository • Interactive web graph at <a href="https://imsudoer.github.io">imsudoer.github.io</a></i></sub></p>
+</div>
+
+---
+
 ### [//] Featured Projects
 
 <table>

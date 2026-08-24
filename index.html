@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudo Bashev // Obsidian Projects Graph</title>
+  <script src="https://unpkg.com/force-graph"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: 'JetBrains Mono', -apple-system, monospace, sans-serif;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+    }
+    #header {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 10;
+      background: rgba(13, 17, 23, 0.85);
+      backdrop-filter: blur(10px);
+      border: 1px solid #30363d;
+      padding: 14px 20px;
+      border-radius: 10px;
+      pointer-events: none;
+    }
+    #header h1 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #58a6ff;
+      margin-bottom: 4px;
+    }
+    #header p {
+      font-size: 11px;
+      color: #8b949e;
+    }
+    #controls {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      z-index: 10;
+      display: flex;
+      gap: 10px;
+    }
+    .btn {
+      background: #161b22;
+      border: 1px solid #30363d;
+      color: #f0f6fc;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .btn:hover {
+      background: #21262d;
+      border-color: #58a6ff;
+      color: #58a6ff;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>[//] Sudo Bashev — Projects & Knowledge Graph</h1>
+    <p>Interactive Obsidian-style force directed constellation • Drag nodes or click to open repository</p>
+  </div>
+
+  <div id="controls">
+    <a href="https://github.com/imsudoer" class="btn">GitHub Profile</a>
+    <a href="https://t.me/bashmd" class="btn">Telegram Blog</a>
+  </div>
+
+  <div id="graph"></div>
+
+  <script>
+    const graphData = {
+      nodes: [
+        { id: "Sudo Bashev", group: "core", size: 24, url: "https://github.com/imsudoer", color: "#58a6ff" },
+        
+        { id: "Rust Systems", group: "rust", size: 18, url: "https://github.com/imsudoer", color: "#dea584" },
+        { id: "Python Core", group: "python", size: 18, url: "https://github.com/imsudoer", color: "#38bdf8" },
+        { id: "Embedded & IoT", group: "embedded", size: 18, url: "https://github.com/imsudoer", color: "#f43f5e" },
+        { id: "Reverse Engineering", group: "reversing", size: 18, url: "https://github.com/imsudoer", color: "#a855f7" },
+        { id: "Linux & DevOps", group: "linux", size: 17, url: "https://github.com/imsudoer", color: "#10b981" },
+
+        { id: "mangaloader", group: "rust", size: 13, url: "https://github.com/imsudoer/mangaloader", desc: "Rust + Flutter manga downloader", color: "#dea584" },
+        { id: "rtexter", group: "rust", size: 11, url: "https://github.com/imsudoer/rtexter", desc: "High-perf Rust tool", color: "#dea584" },
+        { id: "mesh", group: "rust", size: 11, url: "https://github.com/imsudoer/mesh", desc: "Rust workspace", color: "#dea584" },
+
+        { id: "bashboard", group: "linux", size: 14, url: "https://github.com/imsudoer/bashboard", desc: "Modular VDS dashboard & MOTD", color: "#10b981" },
+        { id: "DE-garage VDS", group: "linux", size: 12, url: "https://github.com/imsudoer", desc: "Ryzen 9 5950X Node", color: "#10b981" },
+
+        { id: "TeleBox", group: "python", size: 13, url: "https://github.com/imsudoer/TeleBox", desc: "Modular Userbot engine", color: "#38bdf8" },
+        { id: "GeminiReco", group: "python", size: 12, url: "https://github.com/imsudoer/GeminiReco", desc: "AI Voice-to-Text bot", color: "#38bdf8" },
+        { id: "yamus-rich-presence", group: "python", size: 11, url: "https://github.com/imsudoer/yamus-rich-presence", desc: "Yandex Music Discord RPC", color: "#38bdf8" },
+        { id: "s-to-td", group: "python", size: 10, url: "https://github.com/imsudoer/s-to-td", desc: "Session converter", color: "#38bdf8" },
+
+        { id: "MkOS", group: "embedded", size: 14, url: "https://github.com/imsudoer/MkOS", desc: "Modular *NIX OS for ESP32", color: "#f43f5e" },
+        { id: "MicroOS", group: "embedded", size: 12, url: "https://github.com/imsudoer/MicroOS", desc: "Microcontroller OS", color: "#f43f5e" },
+        { id: "CyberHand", group: "embedded", size: 13, url: "https://github.com/imsudoer/cyberhand-prototype-1", desc: "Bionic ESP32 + MPU-6050", color: "#f43f5e" },
+
+        { id: "MaxLib", group: "reversing", size: 14, url: "https://github.com/imsudoer/MaxLib", desc: "Reversed max.ru client", color: "#a855f7" },
+        { id: "PuterReverse", group: "reversing", size: 12, url: "https://github.com/imsudoer/PuterReverse", desc: "Reversed API client", color: "#a855f7" },
+        { id: "YasoSuUploader", group: "reversing", size: 11, url: "https://github.com/imsudoer/YasoSuUploader", desc: "Pastebin API wrapper", color: "#a855f7" },
+        { id: "vkmax", group: "reversing", size: 11, url: "https://github.com/imsudoer/vkmax", desc: "VK MAX client", color: "#a855f7" }
+      ],
+      links: [
+        { source: "Sudo Bashev", target: "Rust Systems" },
+        { source: "Sudo Bashev", target: "Python Core" },
+        { source: "Sudo Bashev", target: "Embedded & IoT" },
+        { source: "Sudo Bashev", target: "Reverse Engineering" },
+        { source: "Sudo Bashev", target: "Linux & DevOps" },
+
+        { source: "Rust Systems", target: "mangaloader" },
+        { source: "Rust Systems", target: "rtexter" },
+        { source: "Rust Systems", target: "mesh" },
+
+        { source: "Linux & DevOps", target: "bashboard" },
+        { source: "Linux & DevOps", target: "DE-garage VDS" },
+        { source: "Linux & DevOps", target: "Rust Systems" },
+
+        { source: "Python Core", target: "TeleBox" },
+        { source: "Python Core", target: "GeminiReco" },
+        { source: "Python Core", target: "yamus-rich-presence" },
+        { source: "Python Core", target: "s-to-td" },
+        { source: "TeleBox", target: "s-to-td" },
+
+        { source: "Embedded & IoT", target: "MkOS" },
+        { source: "Embedded & IoT", target: "MicroOS" },
+        { source: "Embedded & IoT", target: "CyberHand" },
+        { source: "MkOS", target: "MicroOS" },
+
+        { source: "Reverse Engineering", target: "MaxLib" },
+        { source: "Reverse Engineering", target: "PuterReverse" },
+        { source: "Reverse Engineering", target: "YasoSuUploader" },
+        { source: "Reverse Engineering", target: "vkmax" },
+        { source: "Python Core", target: "Reverse Engineering" }
+      ]
+    };
+
+    const elem = document.getElementById('graph');
+    const Graph = ForceGraph()(elem)
+      .backgroundColor('#0d1117')
+      .graphData(graphData)
+      .nodeId('id')
+      .nodeVal('size')
+      .nodeLabel(node => `${node.id}${node.desc ? ' — ' + node.desc : ''}`)
+      .nodeAutoColorBy('group')
+      .linkSource('source')
+      .linkTarget('target')
+      .linkColor(() => '#30363d')
+      .linkWidth(1.2)
+      .nodeCanvasObject((node, ctx, globalScale) => {
+        const label = node.id;
+        const fontSize = 12 / globalScale;
+        ctx.font = `${node.group === 'core' ? 'bold ' : ''}${Math.max(fontSize, 3)}px 'JetBrains Mono', monospace`;
+        
+        // Node outer ring
+        ctx.beginPath();
+        ctx.arc(node.x, node.y, node.size / 2 + 2, 0, 2 * Math.PI, false);
+        ctx.fillStyle = node.color + '22';
+        ctx.fill();
+
+        // Node center
+        ctx.beginPath();
+        ctx.arc(node.x, node.y, node.size / 2, 0, 2 * Math.PI, false);
+        ctx.fillStyle = '#0d1117';
+        ctx.fill();
+        ctx.strokeStyle = node.color;
+        ctx.lineWidth = 2 / globalScale;
+        ctx.stroke();
+
+        // Text label
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'top';
+        ctx.fillStyle = '#f0f6fc';
+        ctx.fillText(label, node.x, node.y + node.size / 2 + 3);
+      })
+      .onNodeClick(node => {
+        if (node.url) window.open(node.url, '_blank');
+      });
+
+    Graph.d3Force('charge').strength(-220);
+  </script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800&amp;display=swap');
+    .graph-title { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; fill: #58a6ff; }
+    .graph-meta { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; fill: #8b949e; letter-spacing: 0.5px; }
+    .node-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; fill: #f0f6fc; }
+    .node-sub { font-family: 'JetBrains Mono', monospace; font-size: 9px; font-weight: 500; fill: #8b949e; }
+    .node:hover circle { filter: brightness(1.3); cursor: pointer; }
+    .node:hover .node-label { fill: #58a6ff; }
+  </style>
+
+  <!-- Obsidian Graph Dark Canvas Background -->
+  <rect x="0.5" y="0.5" width="799" height="499" rx="10" fill="#0d1117" stroke="#30363d"/>
+
+  <!-- Background Star / Constellation Dots -->
+  <g opacity="0.25">
+    <circle cx="10" cy="10" r="1" fill="#8b949e"/> <circle cx="83" cy="63" r="1" fill="#8b949e"/> <circle cx="156" cy="116" r="1" fill="#8b949e"/> <circle cx="229" cy="169" r="1" fill="#8b949e"/> <circle cx="302" cy="222" r="1" fill="#8b949e"/> <circle cx="375" cy="275" r="1" fill="#8b949e"/> <circle cx="448" cy="328" r="1" fill="#8b949e"/> <circle cx="521" cy="381" r="1" fill="#8b949e"/> <circle cx="594" cy="434" r="1" fill="#8b949e"/> <circle cx="667" cy="487" r="1" fill="#8b949e"/> <circle cx="740" cy="60" r="1" fill="#8b949e"/> <circle cx="33" cy="113" r="1" fill="#8b949e"/> <circle cx="106" cy="166" r="1" fill="#8b949e"/> <circle cx="179" cy="219" r="1" fill="#8b949e"/> <circle cx="252" cy="272" r="1" fill="#8b949e"/> <circle cx="325" cy="325" r="1" fill="#8b949e"/> <circle cx="398" cy="378" r="1" fill="#8b949e"/> <circle cx="471" cy="431" r="1" fill="#8b949e"/> <circle cx="544" cy="484" r="1" fill="#8b949e"/> <circle cx="617" cy="57" r="1" fill="#8b949e"/> <circle cx="690" cy="110" r="1" fill="#8b949e"/> <circle cx="763" cy="163" r="1" fill="#8b949e"/> <circle cx="56" cy="216" r="1" fill="#8b949e"/> <circle cx="129" cy="269" r="1" fill="#8b949e"/> <circle cx="202" cy="322" r="1" fill="#8b949e"/> <circle cx="275" cy="375" r="1" fill="#8b949e"/> <circle cx="348" cy="428" r="1" fill="#8b949e"/> <circle cx="421" cy="481" r="1" fill="#8b949e"/> <circle cx="494" cy="54" r="1" fill="#8b949e"/> <circle cx="567" cy="107" r="1" fill="#8b949e"/> <circle cx="640" cy="160" r="1" fill="#8b949e"/> <circle cx="713" cy="213" r="1" fill="#8b949e"/> <circle cx="786" cy="266" r="1" fill="#8b949e"/> <circle cx="79" cy="319" r="1" fill="#8b949e"/> <circle cx="152" cy="372" r="1" fill="#8b949e"/> <circle cx="225" cy="425" r="1" fill="#8b949e"/> <circle cx="298" cy="478" r="1" fill="#8b949e"/> <circle cx="371" cy="51" r="1" fill="#8b949e"/> <circle cx="444" cy="104" r="1" fill="#8b949e"/> <circle cx="517" cy="157" r="1" fill="#8b949e"/> <circle cx="590" cy="210" r="1" fill="#8b949e"/> <circle cx="663" cy="263" r="1" fill="#8b949e"/> <circle cx="736" cy="316" r="1" fill="#8b949e"/> <circle cx="29" cy="369" r="1" fill="#8b949e"/> <circle cx="102" cy="422" r="1" fill="#8b949e"/> <circle cx="175" cy="475" r="1" fill="#8b949e"/> <circle cx="248" cy="48" r="1" fill="#8b949e"/> <circle cx="321" cy="101" r="1" fill="#8b949e"/> <circle cx="394" cy="154" r="1" fill="#8b949e"/> <circle cx="467" cy="207" r="1" fill="#8b949e"/>
+  </g>
+
+  <!-- Header Overlay -->
+  <g transform="translate(25, 30)">
+    <text x="0" y="0" class="graph-title">Obsidian Graph View // Project &amp; Knowledge Constellation</text>
+    <text x="0" y="16" class="graph-meta">20 NODES • 24 CONNECTIONS • CLICK ANY NODE TO NAVIGATE</text>
+  </g>
+
+  <!-- Links -->
+  <g>
+    <line x1="400" y1="250" x2="230" y2="140" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="400" y1="250" x2="230" y2="140" stroke="#58a6ff" stroke-width="1.2" opacity="0.3"/> <line x1="400" y1="250" x2="570" y2="140" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="400" y1="250" x2="570" y2="140" stroke="#58a6ff" stroke-width="1.2" opacity="0.3"/> <line x1="400" y1="250" x2="240" y2="360" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="400" y1="250" x2="240" y2="360" stroke="#58a6ff" stroke-width="1.2" opacity="0.3"/> <line x1="400" y1="250" x2="570" y2="360" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="400" y1="250" x2="570" y2="360" stroke="#58a6ff" stroke-width="1.2" opacity="0.3"/> <line x1="400" y1="250" x2="400" y2="80" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="400" y1="250" x2="400" y2="80" stroke="#58a6ff" stroke-width="1.2" opacity="0.3"/> <line x1="230" y1="140" x2="100" y2="100" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="230" y1="140" x2="100" y2="100" stroke="#dea584" stroke-width="1.2" opacity="0.3"/> <line x1="230" y1="140" x2="120" y2="180" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="230" y1="140" x2="120" y2="180" stroke="#dea584" stroke-width="1.2" opacity="0.3"/> <line x1="230" y1="140" x2="220" y2="50" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="230" y1="140" x2="220" y2="50" stroke="#dea584" stroke-width="1.2" opacity="0.3"/> <line x1="400" y1="80" x2="400" y2="15" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="400" y1="80" x2="400" y2="15" stroke="#10b981" stroke-width="1.2" opacity="0.3"/> <line x1="400" y1="80" x2="230" y2="140" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="400" y1="80" x2="230" y2="140" stroke="#10b981" stroke-width="1.2" opacity="0.3"/> <line x1="570" y1="140" x2="700" y2="100" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="570" y1="140" x2="700" y2="100" stroke="#38bdf8" stroke-width="1.2" opacity="0.3"/> <line x1="570" y1="140" x2="720" y2="170" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="570" y1="140" x2="720" y2="170" stroke="#38bdf8" stroke-width="1.2" opacity="0.3"/> <line x1="570" y1="140" x2="580" y2="50" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="570" y1="140" x2="580" y2="50" stroke="#38bdf8" stroke-width="1.2" opacity="0.3"/> <line x1="570" y1="140" x2="680" y2="230" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="570" y1="140" x2="680" y2="230" stroke="#38bdf8" stroke-width="1.2" opacity="0.3"/> <line x1="700" y1="100" x2="680" y2="230" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="700" y1="100" x2="680" y2="230" stroke="#38bdf8" stroke-width="1.2" opacity="0.3"/> <line x1="240" y1="360" x2="100" y2="380" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="240" y1="360" x2="100" y2="380" stroke="#f43f5e" stroke-width="1.2" opacity="0.3"/> <line x1="240" y1="360" x2="180" y2="450" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="240" y1="360" x2="180" y2="450" stroke="#f43f5e" stroke-width="1.2" opacity="0.3"/> <line x1="240" y1="360" x2="310" y2="450" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="240" y1="360" x2="310" y2="450" stroke="#f43f5e" stroke-width="1.2" opacity="0.3"/> <line x1="100" y1="380" x2="180" y2="450" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="100" y1="380" x2="180" y2="450" stroke="#f43f5e" stroke-width="1.2" opacity="0.3"/> <line x1="570" y1="360" x2="700" y2="340" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="570" y1="360" x2="700" y2="340" stroke="#a855f7" stroke-width="1.2" opacity="0.3"/> <line x1="570" y1="360" x2="680" y2="420" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="570" y1="360" x2="680" y2="420" stroke="#a855f7" stroke-width="1.2" opacity="0.3"/> <line x1="570" y1="360" x2="570" y2="460" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="570" y1="360" x2="570" y2="460" stroke="#a855f7" stroke-width="1.2" opacity="0.3"/> <line x1="570" y1="360" x2="470" y2="460" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="570" y1="360" x2="470" y2="460" stroke="#a855f7" stroke-width="1.2" opacity="0.3"/> <line x1="570" y1="140" x2="570" y2="360" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/> <line x1="570" y1="140" x2="570" y2="360" stroke="#38bdf8" stroke-width="1.2" opacity="0.3"/>
+  </g>
+
+  <!-- Nodes -->
+  <g>
+    
+    <g class="node" transform="translate(400, 250)">
+      <a href="https://github.com/imsudoer" target="_blank">
+        <circle cx="0" cy="0" r="30" fill="#58a6ff" opacity="0.08" />
+        <circle cx="0" cy="0" r="24" fill="#0d1117" stroke="#58a6ff" stroke-width="2" />
+        <circle cx="0" cy="0" r="18" fill="#58a6ff" opacity="0.3" />
+        <text x="0" y="38" text-anchor="middle" class="node-label">Sudo Bashev</text>
+        <text x="0" y="49" text-anchor="middle" class="node-sub">root</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(230, 140)">
+      <a href="https://github.com/imsudoer" target="_blank">
+        <circle cx="0" cy="0" r="24" fill="#dea584" opacity="0.08" />
+        <circle cx="0" cy="0" r="18" fill="#0d1117" stroke="#dea584" stroke-width="2" />
+        <circle cx="0" cy="0" r="12" fill="#dea584" opacity="0.3" />
+        <text x="0" y="32" text-anchor="middle" class="node-label">Rust Systems</text>
+        <text x="0" y="43" text-anchor="middle" class="node-sub">Tokio / FFI</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(570, 140)">
+      <a href="https://github.com/imsudoer" target="_blank">
+        <circle cx="0" cy="0" r="24" fill="#38bdf8" opacity="0.08" />
+        <circle cx="0" cy="0" r="18" fill="#0d1117" stroke="#38bdf8" stroke-width="2" />
+        <circle cx="0" cy="0" r="12" fill="#38bdf8" opacity="0.3" />
+        <text x="0" y="32" text-anchor="middle" class="node-label">Python Core</text>
+        <text x="0" y="43" text-anchor="middle" class="node-sub">AsyncIO</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(240, 360)">
+      <a href="https://github.com/imsudoer" target="_blank">
+        <circle cx="0" cy="0" r="24" fill="#f43f5e" opacity="0.08" />
+        <circle cx="0" cy="0" r="18" fill="#0d1117" stroke="#f43f5e" stroke-width="2" />
+        <circle cx="0" cy="0" r="12" fill="#f43f5e" opacity="0.3" />
+        <text x="0" y="32" text-anchor="middle" class="node-label">Embedded & IoT</text>
+        <text x="0" y="43" text-anchor="middle" class="node-sub">ESP32 / C++</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(570, 360)">
+      <a href="https://github.com/imsudoer" target="_blank">
+        <circle cx="0" cy="0" r="24" fill="#a855f7" opacity="0.08" />
+        <circle cx="0" cy="0" r="18" fill="#0d1117" stroke="#a855f7" stroke-width="2" />
+        <circle cx="0" cy="0" r="12" fill="#a855f7" opacity="0.3" />
+        <text x="0" y="32" text-anchor="middle" class="node-label">Reverse Eng</text>
+        <text x="0" y="43" text-anchor="middle" class="node-sub">APIs & Network</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(400, 80)">
+      <a href="https://github.com/imsudoer" target="_blank">
+        <circle cx="0" cy="0" r="23" fill="#10b981" opacity="0.08" />
+        <circle cx="0" cy="0" r="17" fill="#0d1117" stroke="#10b981" stroke-width="2" />
+        <circle cx="0" cy="0" r="11" fill="#10b981" opacity="0.3" />
+        <text x="0" y="31" text-anchor="middle" class="node-label">Linux / DevOps</text>
+        <text x="0" y="42" text-anchor="middle" class="node-sub">VDS & Shell</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(100, 100)">
+      <a href="https://github.com/imsudoer/mangaloader" target="_blank">
+        <circle cx="0" cy="0" r="19" fill="#dea584" opacity="0.08" />
+        <circle cx="0" cy="0" r="13" fill="#0d1117" stroke="#dea584" stroke-width="2" />
+        <circle cx="0" cy="0" r="7" fill="#dea584" opacity="0.3" />
+        <text x="0" y="27" text-anchor="middle" class="node-label">mangaloader</text>
+        <text x="0" y="38" text-anchor="middle" class="node-sub">Rust + Flutter</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(120, 180)">
+      <a href="https://github.com/imsudoer/rtexter" target="_blank">
+        <circle cx="0" cy="0" r="17" fill="#dea584" opacity="0.08" />
+        <circle cx="0" cy="0" r="11" fill="#0d1117" stroke="#dea584" stroke-width="2" />
+        <circle cx="0" cy="0" r="5" fill="#dea584" opacity="0.3" />
+        <text x="0" y="25" text-anchor="middle" class="node-label">rtexter</text>
+        <text x="0" y="36" text-anchor="middle" class="node-sub">Rust</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(220, 50)">
+      <a href="https://github.com/imsudoer" target="_blank">
+        <circle cx="0" cy="0" r="17" fill="#dea584" opacity="0.08" />
+        <circle cx="0" cy="0" r="11" fill="#0d1117" stroke="#dea584" stroke-width="2" />
+        <circle cx="0" cy="0" r="5" fill="#dea584" opacity="0.3" />
+        <text x="0" y="25" text-anchor="middle" class="node-label">mesh</text>
+        <text x="0" y="36" text-anchor="middle" class="node-sub">Rust Core</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(400, 15)">
+      <a href="https://github.com/imsudoer/bashboard" target="_blank">
+        <circle cx="0" cy="0" r="20" fill="#10b981" opacity="0.08" />
+        <circle cx="0" cy="0" r="14" fill="#0d1117" stroke="#10b981" stroke-width="2" />
+        <circle cx="0" cy="0" r="8" fill="#10b981" opacity="0.3" />
+        <text x="0" y="28" text-anchor="middle" class="node-label">bashboard</text>
+        <text x="0" y="39" text-anchor="middle" class="node-sub">VDS MOTD</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(700, 100)">
+      <a href="https://github.com/imsudoer/TeleBox" target="_blank">
+        <circle cx="0" cy="0" r="19" fill="#38bdf8" opacity="0.08" />
+        <circle cx="0" cy="0" r="13" fill="#0d1117" stroke="#38bdf8" stroke-width="2" />
+        <circle cx="0" cy="0" r="7" fill="#38bdf8" opacity="0.3" />
+        <text x="0" y="27" text-anchor="middle" class="node-label">TeleBox</text>
+        <text x="0" y="38" text-anchor="middle" class="node-sub">Userbot Engine</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(720, 170)">
+      <a href="https://github.com/imsudoer/GeminiReco" target="_blank">
+        <circle cx="0" cy="0" r="18" fill="#38bdf8" opacity="0.08" />
+        <circle cx="0" cy="0" r="12" fill="#0d1117" stroke="#38bdf8" stroke-width="2" />
+        <circle cx="0" cy="0" r="6" fill="#38bdf8" opacity="0.3" />
+        <text x="0" y="26" text-anchor="middle" class="node-label">GeminiReco</text>
+        <text x="0" y="37" text-anchor="middle" class="node-sub">AI Voice-to-Text</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(580, 50)">
+      <a href="https://github.com/imsudoer/yamus-rich-presence" target="_blank">
+        <circle cx="0" cy="0" r="17" fill="#38bdf8" opacity="0.08" />
+        <circle cx="0" cy="0" r="11" fill="#0d1117" stroke="#38bdf8" stroke-width="2" />
+        <circle cx="0" cy="0" r="5" fill="#38bdf8" opacity="0.3" />
+        <text x="0" y="25" text-anchor="middle" class="node-label">yamus-rpc</text>
+        <text x="0" y="36" text-anchor="middle" class="node-sub">Discord Presence</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(680, 230)">
+      <a href="https://github.com/imsudoer/s-to-td" target="_blank">
+        <circle cx="0" cy="0" r="16" fill="#38bdf8" opacity="0.08" />
+        <circle cx="0" cy="0" r="10" fill="#0d1117" stroke="#38bdf8" stroke-width="2" />
+        <circle cx="0" cy="0" r="4" fill="#38bdf8" opacity="0.3" />
+        <text x="0" y="24" text-anchor="middle" class="node-label">s-to-td</text>
+        <text x="0" y="35" text-anchor="middle" class="node-sub">Session Converter</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(100, 380)">
+      <a href="https://github.com/imsudoer/MkOS" target="_blank">
+        <circle cx="0" cy="0" r="20" fill="#f43f5e" opacity="0.08" />
+        <circle cx="0" cy="0" r="14" fill="#0d1117" stroke="#f43f5e" stroke-width="2" />
+        <circle cx="0" cy="0" r="8" fill="#f43f5e" opacity="0.3" />
+        <text x="0" y="28" text-anchor="middle" class="node-label">MkOS</text>
+        <text x="0" y="39" text-anchor="middle" class="node-sub">ESP32 *NIX OS</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(180, 450)">
+      <a href="https://github.com/imsudoer/MicroOS" target="_blank">
+        <circle cx="0" cy="0" r="18" fill="#f43f5e" opacity="0.08" />
+        <circle cx="0" cy="0" r="12" fill="#0d1117" stroke="#f43f5e" stroke-width="2" />
+        <circle cx="0" cy="0" r="6" fill="#f43f5e" opacity="0.3" />
+        <text x="0" y="26" text-anchor="middle" class="node-label">MicroOS</text>
+        <text x="0" y="37" text-anchor="middle" class="node-sub">Microcontroller OS</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(310, 450)">
+      <a href="https://github.com/imsudoer/cyberhand-prototype-1" target="_blank">
+        <circle cx="0" cy="0" r="19" fill="#f43f5e" opacity="0.08" />
+        <circle cx="0" cy="0" r="13" fill="#0d1117" stroke="#f43f5e" stroke-width="2" />
+        <circle cx="0" cy="0" r="7" fill="#f43f5e" opacity="0.3" />
+        <text x="0" y="27" text-anchor="middle" class="node-label">CyberHand</text>
+        <text x="0" y="38" text-anchor="middle" class="node-sub">ESP32 + MPU6050</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(700, 340)">
+      <a href="https://github.com/imsudoer/MaxLib" target="_blank">
+        <circle cx="0" cy="0" r="20" fill="#a855f7" opacity="0.08" />
+        <circle cx="0" cy="0" r="14" fill="#0d1117" stroke="#a855f7" stroke-width="2" />
+        <circle cx="0" cy="0" r="8" fill="#a855f7" opacity="0.3" />
+        <text x="0" y="28" text-anchor="middle" class="node-label">MaxLib</text>
+        <text x="0" y="39" text-anchor="middle" class="node-sub">Reversed API</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(680, 420)">
+      <a href="https://github.com/imsudoer/PuterReverse" target="_blank">
+        <circle cx="0" cy="0" r="18" fill="#a855f7" opacity="0.08" />
+        <circle cx="0" cy="0" r="12" fill="#0d1117" stroke="#a855f7" stroke-width="2" />
+        <circle cx="0" cy="0" r="6" fill="#a855f7" opacity="0.3" />
+        <text x="0" y="26" text-anchor="middle" class="node-label">PuterReverse</text>
+        <text x="0" y="37" text-anchor="middle" class="node-sub">API Client</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(570, 460)">
+      <a href="https://github.com/imsudoer/YasoSuUploader" target="_blank">
+        <circle cx="0" cy="0" r="17" fill="#a855f7" opacity="0.08" />
+        <circle cx="0" cy="0" r="11" fill="#0d1117" stroke="#a855f7" stroke-width="2" />
+        <circle cx="0" cy="0" r="5" fill="#a855f7" opacity="0.3" />
+        <text x="0" y="25" text-anchor="middle" class="node-label">YasoSuUploader</text>
+        <text x="0" y="36" text-anchor="middle" class="node-sub">Pastebin API</text>
+      </a>
+    </g>
+         
+    <g class="node" transform="translate(470, 460)">
+      <a href="https://github.com/imsudoer/vkmax" target="_blank">
+        <circle cx="0" cy="0" r="17" fill="#a855f7" opacity="0.08" />
+        <circle cx="0" cy="0" r="11" fill="#0d1117" stroke="#a855f7" stroke-width="2" />
+        <circle cx="0" cy="0" r="5" fill="#a855f7" opacity="0.3" />
+        <text x="0" y="25" text-anchor="middle" class="node-label">vkmax</text>
+        <text x="0" y="36" text-anchor="middle" class="node-sub">Messenger Client</text>
+      </a>
+    </g>
+        
+  </g>
+</svg>
