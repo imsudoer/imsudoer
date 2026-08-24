@@ -210,20 +210,14 @@
 
 <div align="center">
 
-<table width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://steamcommunity.com/id/NoBanOnlyZXC/">
-        <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/steam-main.svg" width="100%" alt="Steam Main NoBanOnlyZXC" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://steamcommunity.com/id/iamsudoer">
-        <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/steam-alt.svg" width="100%" alt="Steam Alt iamsudoer" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://steamcommunity.com/id/NoBanOnlyZXC/">
+    <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/steam-main.svg" width="49%" alt="Steam Main NoBanOnlyZXC" />
+  </a>
+  <a href="https://steamcommunity.com/id/iamsudoer">
+    <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/steam-alt.svg" width="49%" alt="Steam Alt iamsudoer" />
+  </a>
+</p>
 
 <p><sub><i>Cards dynamically updated via GitHub Action workflow</i></sub></p>
 
@@ -244,20 +238,14 @@
 
 <br/><br/>
 
-<table width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/imsudoer">
-        <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/github-stats.svg" width="100%" alt="GitHub Stats" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/imsudoer">
-        <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/top-langs.svg" width="100%" alt="Top Languages" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/imsudoer">
+    <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/github-stats.svg" width="49%" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/imsudoer">
+    <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/top-langs.svg" width="49%" alt="Top Languages" />
+  </a>
+</p>
 
 <br/>
 
