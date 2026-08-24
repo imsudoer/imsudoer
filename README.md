@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=220&section=header&text=Andrey%20Bashev&fontSize=42&fontColor=ffffff&animation=fadeIn&subtext=%7E%24%20sudo%2B%2B%20%7C%20Systems%2C%20Backend%20%26%20Reverse%20Engineering&subfontSize=18&subfontColor=abb2bf" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=220&section=header&text=Sudo%20Bashev&fontSize=42&fontColor=ffffff&animation=fadeIn&subtext=%7E%24%20sudo%2B%2B%20%7C%20Systems%2C%20Backend%20%26%20Reverse%20Engineering&subfontSize=18&subfontColor=abb2bf" width="100%" alt="Header Banner" />
 
 <!-- DYNAMIC TYPING BANNER -->
 <a href="https://t.me/bashmd">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&height=50&lines=%7E%24+sudo%2B%2B+--status+active;Rust+%26+Python+Backend+Developer;Systems%2C+IoT+%26+Reverse+Engineering;Exploring+Linux+Kernels+%26+Microcontrollers;No+vibe-coding.+Deep+understanding+only." alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&height=50&lines=%7E%24+sudo%2B%2B+--status+active;Sudo+Bashev+%7C+Systems+%26+Backend;Rust+%26+Python+Developer;Microcontroller+OS+%26+Reverse+Engineering;No+vibe-coding.+Deep+understanding+only." alt="Typing Banner" />
 </a>
 
 <br/>
@@ -52,7 +52,7 @@
 |  \___/|_||_\___|_| .__/\__,_|/__/   Uptime: Continuous R&D                 |
 |                  |_|                Shell: bash (augmented via bashboard) |
 |                                     Languages: Rust, Python, C++, TS, Dart |
-|  Andrey "Sudo" Bashev (~$ sudo++)   Focus: Systems, Embedded & Reversing   |
+|  Sudo Bashev (~$ sudo++)            Focus: Systems, Embedded & Reversing   |
 |  Self-taught developer              Goal: Mastering systems programming    |
 |  Birthday: December 24              Motto: Deep understanding over syntax  |
 +----------------------------------------------------------------------------+
@@ -64,7 +64,7 @@
 
 <table width="100%">
   <tr>
-    <td width="65%" valign="top">
+    <td width="60%" valign="top">
       <blockquote>
         <p><b>"I build things for myself first"</b><br/>
         Tools, experiments, and systems that make life easier or satisfy my curiosity. Most of my projects start as personal tools or ideas I want to explore. Not everything becomes a finished product, but every single project teaches something new.</p>
@@ -75,8 +75,8 @@
         <i>Started with Python -> Mastering Rust and memory safety -> Exploring Linux systems & Embedded microcontrollers.</i></p>
       </blockquote>
     </td>
-    <td width="35%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/coding_night.gif" width="100%" style="border-radius: 8px;" alt="Coding Animation" />
+    <td width="40%" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/cyber_room.gif" width="100%" style="border-radius: 10px;" alt="Cyber Room Workspace" />
     </td>
   </tr>
 </table>
@@ -205,7 +205,7 @@
     </tr>
     <tr>
       <td><b>Laptop</b></td>
-      <td>Mobile Workstation</td>
+      <td>ASUS Vivobook 15</td>
       <td>Intel Core i5-13420H (13th Gen)</td>
       <td>16 GB RAM • 512 GB NVMe SSD</td>
       <td>Intel UHD Graphics • Wi-Fi 6</td>
@@ -230,7 +230,7 @@
 
 <div align="center">
 
-<table>
+<table width="100%">
   <tr>
     <td align="center" width="50%">
       <a href="https://steamcommunity.com/id/NoBanOnlyZXC/">
@@ -245,7 +245,7 @@
   </tr>
 </table>
 
-<p><sub><i>Cards dynamically updated via GitHub Action</i></sub></p>
+<p><sub><i>Cards dynamically updated via GitHub Action workflow</i></sub></p>
 
 </div>
 
@@ -285,16 +285,6 @@
 
 ---
 
-### [//] Visual Terminal & Matrix Stream
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/terminal_typing.gif" width="48%" style="border-radius: 8px;" alt="Terminal Animation" />
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/matrix_rain.gif" width="48%" style="border-radius: 8px;" alt="Matrix Rain" />
-</div>
-
----
-
 ### [//] Connect & Contacts
 
 <div align="center">
@@ -320,6 +310,6 @@
 <!-- FOOTER WAVE -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=120&section=footer" width="100%" alt="Footer Banner" />
 
-<p><sub>[SYS] <i>"Still learning. Still building. Still figuring things out."</i> — <b>Andrey (~$ sudo++)</b></sub></p>
+<p><sub>[SYS] <i>"Still learning. Still building. Still figuring things out."</i> — <b>Sudo Bashev (~$ sudo++)</b></sub></p>
 
 </div>
