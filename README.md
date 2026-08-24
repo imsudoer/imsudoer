@@ -10,7 +10,7 @@
 
 <br/>
 
-<!-- TOP CYBER DIVIDER GIF -->
+<!-- TOP CYBER DIVIDER -->
 <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/cyber_bar.gif" width="100%" height="6" alt="Divider" />
 
 <br/><br/>
@@ -62,24 +62,16 @@
 
 ### [//] Philosophy & Core Principles
 
-<table width="100%">
-  <tr>
-    <td width="60%" valign="top">
-      <blockquote>
-        <p><b>"I build things for myself first"</b><br/>
-        Tools, experiments, and systems that make life easier or satisfy my curiosity. Most of my projects start as personal tools or ideas I want to explore. Not everything becomes a finished product, but every single project teaches something new.</p>
-      </blockquote>
-      <blockquote>
-        <p><b>"AI is my second brain, not my programmer."</b><br/>
-        It teaches. It reviews. It challenges. But the code is mine. No vibe coding. No "one prompt = one project". Just understanding, building, and debugging.<br/>
-        <i>Started with Python -> Mastering Rust and memory safety -> Exploring Linux systems & Embedded microcontrollers.</i></p>
-      </blockquote>
-    </td>
-    <td width="40%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/cyber_room.gif" width="100%" style="border-radius: 10px;" alt="Cyber Room Workspace" />
-    </td>
-  </tr>
-</table>
+<blockquote>
+  <p><b>"I build things for myself first"</b><br/>
+  Tools, experiments, and systems that make life easier or satisfy my curiosity. Most of my projects start as personal tools or ideas I want to explore. Not everything becomes a finished product, but every single project teaches something new.</p>
+</blockquote>
+
+<blockquote>
+  <p><b>"AI is my second brain, not my programmer."</b><br/>
+  It teaches. It reviews. It challenges. But the code is mine. No vibe coding. No "one prompt = one project". Just understanding, building, and debugging.<br/>
+  <i>Started with Python -> Mastering Rust and memory safety -> Exploring Linux systems & Embedded microcontrollers.</i></p>
+</blockquote>
 
 ---
 
@@ -264,21 +256,25 @@
 
 <br/><br/>
 
-<a href="https://github.com/imsudoer">
-  <img src="https://github-readme-stats.vercel.app/api?username=imsudoer&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imsudoer&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="165" alt="Top Languages" />
-</a>
+<table width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/imsudoer">
+        <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/github-stats.svg" width="100%" alt="GitHub Stats" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/imsudoer">
+        <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/top-langs.svg" width="100%" alt="Top Languages" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
 <a href="https://github.com/imsudoer">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=imsudoer&theme=tokyonight&hide_border=true&background=0D1117" alt="Streak Stats" />
-</a>
-
-<br/>
-
-<a href="https://github.com/imsudoer">
-  <img src="https://github-profile-trophy.vercel.app/?username=imsudoer&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </a>
 
 </div>

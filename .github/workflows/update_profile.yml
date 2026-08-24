@@ -25,16 +25,17 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Update Steam Dynamic Cards
+      - name: Update Steam & GitHub Stats SVGs
         run: |
           python scripts/update_steam.py
+          python scripts/update_stats.py
 
       - name: Commit updated assets
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add assets/
-          git diff-index --quiet HEAD || git commit -m "chore: auto-update dynamic steam assets [skip ci]"
+          git diff-index --quiet HEAD || git commit -m "chore: auto-update dynamic assets [skip ci]"
           git push origin main || true
 
       - name: Generate Snake Animation
