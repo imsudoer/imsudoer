@@ -5,7 +5,7 @@
 
 <!-- DYNAMIC TYPING BANNER -->
 <a href="https://t.me/bashmd">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&height=50&lines=%7E%24+sudo%2B%2B+--status+active;Sudo+Bashev+%7C+Systems+%26+Backend;Rust+%26+Python+Developer;Microcontroller+OS+%26+Reverse+Engineering;No+vibe-coding.+Deep+understanding+only." alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&height=50&lines=%7E%24+sudo%2B%2B+--status+active;Sudo+Bashev+%7C+Systems+%26+Backend;Rust+%26+Python+Developer;Microcontroller+OS+%26+Reverse+Engineering" alt="Typing Banner" />
 </a>
 
 <br/>
