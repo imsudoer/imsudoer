@@ -2,7 +2,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800&amp;display=swap');
     .title { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; fill: #58a6ff; }
-    .status-text { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; fill: #58a6ff; }
+    .status-text { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; fill: #3fb950; }
     .nick { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; fill: #f0f6fc; }
     .meta { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 500; fill: #8b949e; }
     .sec-title { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; fill: #8b949e; letter-spacing: 0.5px; text-transform: uppercase; }
@@ -14,8 +14,8 @@
 
   <g transform="translate(25, 28)">
     <text x="0" y="0" class="title">Steam // Main</text>
-    <circle cx="286" cy="-4" r="3.5" fill="#58a6ff" />
-    <text x="278" y="0" class="status-text" text-anchor="end">Online</text>
+    <circle cx="286" cy="-4" r="3.5" fill="#3fb950" />
+    <text x="278" y="0" class="status-text" text-anchor="end">In-Game</text>
   </g>
 
   <g transform="translate(25, 42)">
