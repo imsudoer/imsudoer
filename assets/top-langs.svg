@@ -12,7 +12,7 @@
   <g transform="translate(25, 48)">
     <rect x="0" y="0" width="290" height="8" rx="4" fill="#21262d" />
     <g clip-path="url(#bar_clip)">
-      <rect x="0" y="0" width="186.47" height="8" rx="2" fill="#3572A5" /> <rect x="186.47" y="0" width="31.03" height="8" rx="2" fill="#f34b7d" /> <rect x="217.5" y="0" width="10.440000000000001" height="8" rx="2" fill="#89e051" /> <rect x="227.94" y="0" width="10.440000000000001" height="8" rx="2" fill="#563d7c" /> <rect x="238.38" y="0" width="10.440000000000001" height="8" rx="2" fill="#00B4AB" /> <rect x="248.82" y="0" width="10.440000000000001" height="8" rx="2" fill="#3178c6" />
+      <rect x="0" y="0" width="180.09" height="8" rx="2" fill="#3572A5" /> <rect x="180.09" y="0" width="29.87" height="8" rx="2" fill="#f34b7d" /> <rect x="209.96" y="0" width="9.860000000000001" height="8" rx="2" fill="#89e051" /> <rect x="219.82000000000002" y="0" width="9.860000000000001" height="8" rx="2" fill="#563d7c" /> <rect x="229.68000000000004" y="0" width="9.860000000000001" height="8" rx="2" fill="#00B4AB" /> <rect x="239.54000000000005" y="0" width="9.860000000000001" height="8" rx="2" fill="#3178c6" />
     </g>
     <clipPath id="bar_clip">
       <rect x="0" y="0" width="290" height="8" rx="4" />
@@ -23,37 +23,37 @@
         <g transform="translate(25, 85)">
           <circle cx="5" cy="5" r="4" fill="#3572A5" />
           <text x="15" y="9" class="lang-name">Python</text>
-          <text x="120" y="9" class="lang-pct" text-anchor="end">64.3%</text>
+          <text x="120" y="9" class="lang-pct" text-anchor="end">62.1%</text>
         </g>
          
         <g transform="translate(170, 85)">
           <circle cx="5" cy="5" r="4" fill="#f34b7d" />
           <text x="15" y="9" class="lang-name">C++</text>
-          <text x="120" y="9" class="lang-pct" text-anchor="end">10.7%</text>
+          <text x="120" y="9" class="lang-pct" text-anchor="end">10.3%</text>
         </g>
          
         <g transform="translate(25, 109)">
           <circle cx="5" cy="5" r="4" fill="#89e051" />
           <text x="15" y="9" class="lang-name">Shell</text>
-          <text x="120" y="9" class="lang-pct" text-anchor="end">3.6%</text>
+          <text x="120" y="9" class="lang-pct" text-anchor="end">3.4%</text>
         </g>
          
         <g transform="translate(170, 109)">
           <circle cx="5" cy="5" r="4" fill="#563d7c" />
           <text x="15" y="9" class="lang-name">CSS</text>
-          <text x="120" y="9" class="lang-pct" text-anchor="end">3.6%</text>
+          <text x="120" y="9" class="lang-pct" text-anchor="end">3.4%</text>
         </g>
          
         <g transform="translate(25, 133)">
           <circle cx="5" cy="5" r="4" fill="#00B4AB" />
           <text x="15" y="9" class="lang-name">Dart</text>
-          <text x="120" y="9" class="lang-pct" text-anchor="end">3.6%</text>
+          <text x="120" y="9" class="lang-pct" text-anchor="end">3.4%</text>
         </g>
          
         <g transform="translate(170, 133)">
           <circle cx="5" cy="5" r="4" fill="#3178c6" />
           <text x="15" y="9" class="lang-name">TypeScript</text>
-          <text x="120" y="9" class="lang-pct" text-anchor="end">3.6%</text>
+          <text x="120" y="9" class="lang-pct" text-anchor="end">3.4%</text>
         </g>
         
 </svg>
