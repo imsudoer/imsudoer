@@ -6,8 +6,6 @@ Systems, backend and reverse engineering. Rust and Python services, teardown of
 closed protocols and undocumented APIs, C/C++ firmware for ESP32, and the Linux
 boxes underneath. MSU student.
 
-[sudo.onlysq.me](https://sudo.onlysq.me) · [@subashev](https://t.me/subashev) · [sudo@onlysq.me](mailto:sudo@onlysq.me)
-
 ---
 
 ## What I work on
@@ -57,8 +55,9 @@ subscriptions and admin panels.
 - **[wotmod-smart-decompiler](https://github.com/imsudoer/wotmod-smart-decompiler)** —
   deobfuscation and decompilation toolchain for World of Tanks mods, with CFG
   simplification. `Python` `Reverse`
-- **[MkOS](https://github.com/imsudoer/MkOS)** — modular *NIX-like environment for ESP
-  microcontrollers: developer API, task dispatcher, interactive shell. `C++` `ESP32`
+- **[MkOS](https://github.com/imsudoer/MkOS)** — modular \*NIX-like environment for
+  ESP microcontrollers: developer API, task dispatcher, interactive shell.
+  `C++` `ESP32`
 - **[MicroOS](https://github.com/imsudoer/MicroOS)** — the smaller OS for ESP-class
   chips that MkOS grew out of. `C++` `ESP32`
 - **[cyberhand-prototype-1](https://github.com/imsudoer/cyberhand-prototype-1)** —
