@@ -1,298 +1,79 @@
-<div align="center">
+# Sudo Bashev
 
-<!-- HERO BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=220&section=header&text=Sudo%20Bashev&fontSize=42&fontColor=ffffff&animation=fadeIn&subtext=%7E%24%20sudo%2B%2B%20%7C%20Systems%2C%20Backend%20%26%20Reverse%20Engineering&subfontSize=18&subfontColor=abb2bf" width="100%" alt="Header Banner" />
+`~$ sudo` · `sudo++` · `imsudoer` · `Onlysq`
 
-<!-- DYNAMIC TYPING BANNER -->
-<a href="https://t.me/bashmd">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&height=50&lines=%7E%24+sudo%2B%2B+--status+active;Sudo+Bashev+%7C+Systems+%26+Backend;Rust+%26+Python+Developer;Microcontroller+OS+%26+Reverse+Engineering" alt="Typing Banner" />
-</a>
+Systems, backend and reverse engineering. Rust and Python services, teardown of
+closed protocols and undocumented APIs, C/C++ firmware for ESP32, and the Linux
+boxes underneath. MSU student.
 
-<br/>
-
-<!-- TOP CYBER DIVIDER -->
-<img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/cyber_bar.gif" width="100%" height="6" alt="Divider" />
-
-<br/><br/>
-
-<!-- QUICK BADGES -->
-<p align="center">
-  <a href="https://t.me/bashmd">
-    <img src="https://img.shields.io/badge/Telegram_Blog-@bashmd-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Channel" />
-  </a>
-  &nbsp;
-  <a href="https://t.me/subashev">
-    <img src="https://img.shields.io/badge/Direct_Message-@subashev-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Direct" />
-  </a>
-  &nbsp;
-  <a href="https://steamcommunity.com/id/NoBanOnlyZXC/">
-    <img src="https://img.shields.io/badge/Steam_Main-NoBanOnlyZXC-171A21?style=for-the-badge&logo=steam&logoColor=white" alt="Steam Main" />
-  </a>
-  &nbsp;
-  <a href="https://steamcommunity.com/id/iamsudoer">
-    <img src="https://img.shields.io/badge/Steam_Alt-iamsudoer-171A21?style=for-the-badge&logo=steam&logoColor=white" alt="Steam Alt" />
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=imsudoer&label=PROFILE+VIEWS&style=for-the-badge&color=58a6ff&labelColor=161b22" alt="Profile Views" />
-</p>
-
-</div>
+[sudo.onlysq.me](https://sudo.onlysq.me) · [@subashev](https://t.me/subashev) · [sudo@onlysq.me](mailto:sudo@onlysq.me)
 
 ---
 
-### [//] System Initialization & Profile
+## What I work on
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/terminal-card.svg" width="100%" alt="Terminal Profile" />
-</div>
+**Systems and Rust.** Async services on Tokio, CLI tooling, and native Rust cores
+behind Flutter interfaces through `flutter_rust_bridge`. Memory is handled by hand,
+not by a garbage collector.
 
----
+**Backend and Python.** AsyncIO services on FastAPI, Quart and Flask, SQLAlchemy for
+storage, httpx and aiohttp for clients, curl_cffi where the request has to pass as a
+real browser.
 
-### [//] Philosophy & Core Principles
+**Reverse engineering.** Proprietary wire protocols, undocumented APIs and unofficial
+SDKs. Traffic analysis in Wireshark and Fiddler, and requests that have to get past
+Cloudflare and anti-bot checks.
 
-<blockquote>
-  <p><b>"I build things for myself first"</b><br/>
-  Tools, experiments, and systems that make life easier or satisfy my curiosity. Most of my projects start as personal tools or ideas I want to explore. Not everything becomes a finished product, but every single project teaches something new.</p>
-</blockquote>
+**Embedded.** ESP32 and ESP8266 firmware in C/C++ on FreeRTOS: sensors, servos, a task
+scheduler of my own, and a shell that runs on a microcontroller.
 
-<blockquote>
-  <p><b>"AI is my second brain, not my programmer."</b><br/>
-  It teaches. It reviews. It challenges. But the code is mine. No vibe coding. No "one prompt = one project". Just understanding, building, and debugging.<br/>
-  <i>Started with Python -> Mastering Rust and memory safety -> Exploring Linux systems & Embedded microcontrollers.</i></p>
-</blockquote>
+**Telegram.** Bots and userbots on Aiogram 3, Pyrogram and Telethon, with payments,
+subscriptions and admin panels.
 
----
+**Linux.** Ubuntu, Debian and Arch; systemd, nginx, Docker, PostgreSQL, SQLite, Redis.
 
-### [//] Tech Arsenal & Stack
+## Stack
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=rust,python,cpp,c,ts,js,kotlin,dart,bash,fastapi,flask&perline=11&theme=dark" alt="Languages and Frameworks" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=flutter,linux,arduino,docker,postgres,sqlite,redis,git,githubactions,neovim,vscode,postman&perline=12&theme=dark" alt="Tools and Systems" />
-</div>
+| Area | Tools |
+| --- | --- |
+| Languages | Rust, Python, C, C++, Bash, TypeScript, JavaScript, Dart, Kotlin |
+| Backend | FastAPI, Quart, Flask, AsyncIO, SQLAlchemy, httpx, aiohttp, curl_cffi |
+| Telegram | Aiogram 3, Pyrogram, Telethon, Telebot |
+| Embedded | ESP32, ESP8266, FreeRTOS, Arduino framework, MPU-6050 |
+| Infrastructure | Linux, systemd, nginx, Docker, PostgreSQL, SQLite, Redis |
+| Tooling | Wireshark, Fiddler, Playwright, Git, GitHub Actions |
 
-<br/>
+## Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>[>] Core Languages & Systems</h4>
-      <ul>
-        <li><code>Rust</code> — High-performance CLI tools, memory safety, Tokio async, Flutter-Rust Bridge</li>
-        <li><code>Python</code> — AsyncIO, reverse engineering, scrapers, automated workflows, REST/WebSocket APIs</li>
-        <li><code>C / C++</code> — ESP32 firmware, FreeRTOS, robotics (MPU-6050), MicroOS</li>
-        <li><code>Bash / Shell</code> — VDS dashboards, MOTD scripts, Linux automation</li>
-        <li><code>TypeScript / JavaScript</code> — Backend services, tooling, CLI apps</li>
-        <li><code>Dart / Kotlin</code> — Cross-platform desktop/mobile clients (MangaLoader)</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>[>] Frameworks, Tools & Ecosystem</h4>
-      <ul>
-        <li><b>AI & Agentic Dev:</b> <code>Google Antigravity</code> (Autonomous coding, workflows & architecture)</li>
-        <li><b>Web & APIs:</b> FastAPI, Flask, Axum, Jinja2, SQLAlchemy, curl_cffi</li>
-        <li><b>Telegram Engine:</b> Pyrogram, Telebot, Aiogram, Telethon, custom userbots</li>
-        <li><b>Microcontrollers:</b> ESP32, ESP8266, Arduino framework, IoT sensors</li>
-        <li><b>Reversing & Network:</b> Wireshark, Fiddler, Playwright, API inspection</li>
-        <li><b>DevOps & Storage:</b> PostgreSQL, SQLite, Redis, S3, Docker, Nginx, Systemd</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+- **[mangaloader](https://github.com/imsudoer/mangaloader)** — manga and comic reader
+  with batch downloading and an offline library. Flutter UI, native Rust core.
+  `Rust` `Flutter`
+- **[bashboard](https://github.com/imsudoer/bashboard)** — modular bash dashboard and
+  MOTD framework that turns an SSH login on a VDS into a live status screen.
+  `Bash` `Linux`
+- **[MaxLib](https://github.com/imsudoer/MaxLib)** — async Python framework for the
+  MAX messenger, speaking the mobile binary protocol rather than the web API.
+  `Python` `Reverse`
+- **[wotmod-smart-decompiler](https://github.com/imsudoer/wotmod-smart-decompiler)** —
+  deobfuscation and decompilation toolchain for World of Tanks mods, with CFG
+  simplification. `Python` `Reverse`
+- **[MkOS](https://github.com/imsudoer/MkOS)** — modular *NIX-like environment for ESP
+  microcontrollers: developer API, task dispatcher, interactive shell. `C++` `ESP32`
+- **[MicroOS](https://github.com/imsudoer/MicroOS)** — the smaller OS for ESP-class
+  chips that MkOS grew out of. `C++` `ESP32`
+- **[cyberhand-prototype-1](https://github.com/imsudoer/cyberhand-prototype-1)** —
+  wearable Bluetooth mouse: MPU-6050 motion data in, cursor movement out. `C++` `ESP32`
+- **[TeleBox](https://github.com/imsudoer/TeleBox)** — Telegram userbot core with
+  authored commands and a plugin API. `Python` `Telegram`
+- **[s-to-td](https://github.com/imsudoer/s-to-td)** — converts Telegram `.session`
+  files to TData. `Python`
+- **[yamus-rich-presence](https://github.com/imsudoer/yamus-rich-presence)** —
+  broadcasts the track currently playing in Yandex Music to Discord Rich Presence.
+  `Python`
 
----
+## Contact
 
-### [//] Project & Knowledge Graph
-
-<div align="center">
-  <a href="https://imsudoer.github.io">
-    <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/projects-graph.svg" width="100%" alt="Obsidian Project Graph" />
-  </a>
-  <p><sub><i>Obsidian-style constellation view • Click any node to open repository • Interactive web graph at <a href="https://imsudoer.github.io">imsudoer.github.io</a></i></sub></p>
-</div>
-
----
-
-### [//] Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/imsudoer/mangaloader">MangaLoader</a></h3>
-      <img src="https://img.shields.io/badge/Stack-Rust%20%2B%20Flutter-DEA584?style=flat-square&logo=rust" alt="Rust Flutter" />
-      <p>High-performance cross-platform manga reader and batch downloader powered by a Flutter UI and native Rust backend via <code>flutter_rust_bridge</code>.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/imsudoer/bashboard">bashboard</a></h3>
-      <img src="https://img.shields.io/badge/Stack-Bash%20Framework-4EAA25?style=flat-square&logo=gnubash" alt="Bash" />
-      <p>Modular bash dashboard, dynamic MOTD, and shell-augmentation framework for Linux VDS — turning SSH logins into a real-time command center.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/imsudoer/MkOS">MkOS & MicroOS</a></h3>
-      <img src="https://img.shields.io/badge/Stack-C%2B%2B%20%2F%20ESP32-00599C?style=flat-square&logo=cplusplus" alt="C++" />
-      <p>Modular *NIX-like operating system for ESP microcontrollers featuring a custom task scheduler, developer API, and interactive shell.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/imsudoer/cyberhand-prototype-1">CyberHand Prototype</a></h3>
-      <img src="https://img.shields.io/badge/Stack-ESP32%20%2B%20MPU6050-E7352C?style=flat-square&logo=arduino" alt="Hardware" />
-      <p>Experimental robotic cyberhand project driven by ESP32, motion IMU sensors (MPU-6050), and servo-actuated mechanics.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/imsudoer/MaxLib">MaxLib & PuterReverse</a></h3>
-      <img src="https://img.shields.io/badge/Stack-Python%20Reverse%20Eng-3776AB?style=flat-square&logo=python" alt="Python" />
-      <p>Reverse-engineered API clients and automation libraries for web services with high-speed async pipelines.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/imsudoer/TeleBox">TeleBox & GeminiReco</a></h3>
-      <img src="https://img.shields.io/badge/Stack-Telegram%20Automation-24A1DE?style=flat-square&logo=telegram" alt="Telegram" />
-      <p>Extensible Telegram userbot and automation utilities, including voice-to-text AI transcription for private chats.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/imsudoer/yamus-rich-presence">YaMus Rich Presence</a></h3>
-      <img src="https://img.shields.io/badge/Stack-Discord%20RPC-5865F2?style=flat-square&logo=discord" alt="Discord" />
-      <p>Lightweight background service broadcasting currently playing Yandex Music tracks to Discord Rich Presence in real time.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/imsudoer/s-to-td">s-to-td</a></h3>
-      <img src="https://img.shields.io/badge/Stack-Python%20Converter-3776AB?style=flat-square&logo=python" alt="Python" />
-      <p>Specialized utility converting Telegram session files (.session) directly into TData format.</p>
-    </td>
-  </tr>
-</table>
-
----
-
-### [//] Homelab & Hardware Infrastructure
-
-<details open>
-<summary><b>[+] Hardware Fleet & Node Specifications</b></summary>
-<br/>
-
-<table>
-  <thead>
-    <tr>
-      <th>Machine</th>
-      <th>Role</th>
-      <th>Processor / Compute</th>
-      <th>RAM & Storage</th>
-      <th>Graphics / Network</th>
-      <th>OS</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>Workstation PC</b></td>
-      <td>Main Dev Rig</td>
-      <td>AMD Ryzen 7 3800X (8C / 16T)</td>
-      <td>48 GB RAM • 1 TB NVMe + 1.3 TB HDD</td>
-      <td>NVIDIA RTX 2060 12GB • 300 Mbit/s</td>
-      <td><code>Windows 11 Pro</code></td>
-    </tr>
-    <tr>
-      <td><b>Laptop</b></td>
-      <td>ASUS Vivobook 15</td>
-      <td>Intel Core i5-13420H (13th Gen)</td>
-      <td>16 GB RAM • 512 GB NVMe SSD</td>
-      <td>Intel UHD Graphics • Wi-Fi 6</td>
-      <td><code>Windows 10 Pro</code></td>
-    </tr>
-    <tr>
-      <td><b>DE-garage</b></td>
-      <td>Cloud VDS</td>
-      <td>AMD Ryzen 9 5950X (3 vCPU)</td>
-      <td>6 GB RAM • 120 GB NVMe</td>
-      <td>1 Gbit/s Uplink</td>
-      <td><code>Ubuntu 22.04 LTS</code></td>
-    </tr>
-  </tbody>
-</table>
-
-</details>
-
----
-
-### [//] Steam Profiles & Gaming Activity
-
-<div align="center">
-
-<p align="center">
-  <a href="https://steamcommunity.com/id/NoBanOnlyZXC/">
-    <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/steam-main.svg" width="49%" alt="Steam Main NoBanOnlyZXC" />
-  </a>
-  <a href="https://steamcommunity.com/id/iamsudoer">
-    <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/steam-alt.svg" width="49%" alt="Steam Alt iamsudoer" />
-  </a>
-</p>
-
-<p><sub><i>Cards dynamically updated via GitHub Action workflow</i></sub></p>
-
-</div>
-
----
-
-### [//] GitHub Activity & Contribution Matrix
-
-<div align="center">
-
-<!-- SNAKE CONTRIBUTION GRAPH -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imsudoer/imsudoer/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imsudoer/imsudoer/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/imsudoer/imsudoer/output/github-contribution-grid-snake-dark.svg" width="100%" />
-</picture>
-
-<br/><br/>
-
-<p align="center">
-  <a href="https://github.com/imsudoer">
-    <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/github-stats.svg" width="49%" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/imsudoer">
-    <img src="https://raw.githubusercontent.com/imsudoer/imsudoer/main/assets/top-langs.svg" width="49%" alt="Top Languages" />
-  </a>
-</p>
-
-<br/>
-
-<a href="https://github.com/imsudoer">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=imsudoer&theme=tokyonight&hide_border=true&background=0D1117" alt="Streak Stats" />
-</a>
-
-</div>
-
----
-
-### [//] Connect & Contacts
-
-<div align="center">
-
-<p align="center">
-  <a href="https://t.me/bashmd">
-    <img src="https://img.shields.io/badge/Telegram_Channel-@bashmd-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Blog" />
-  </a>
-  &nbsp;
-  <a href="https://t.me/subashev">
-    <img src="https://img.shields.io/badge/Direct_Telegram-@subashev-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Direct Telegram" />
-  </a>
-  &nbsp;
-  <a href="https://steamcommunity.com/id/NoBanOnlyZXC/">
-    <img src="https://img.shields.io/badge/Steam_Main-NoBanOnlyZXC-171A21?style=for-the-badge&logo=steam&logoColor=white" alt="Steam Main" />
-  </a>
-  &nbsp;
-  <a href="https://steamcommunity.com/id/iamsudoer">
-    <img src="https://img.shields.io/badge/Steam_Alt-iamsudoer-171A21?style=for-the-badge&logo=steam&logoColor=white" alt="Steam Alt" />
-  </a>
-</p>
-
-<!-- FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=120&section=footer" width="100%" alt="Footer Banner" />
-
-<p><sub>[SYS] <i>"Still learning. Still building. Still figuring things out."</i> — <b>Sudo Bashev (~$ sudo++)</b></sub></p>
-
-</div>
+- Site: [sudo.onlysq.me](https://sudo.onlysq.me)
+- Telegram: [@subashev](https://t.me/subashev)
+- Channel: [@bashmd](https://t.me/bashmd)
+- Email: [sudo@onlysq.me](mailto:sudo@onlysq.me)
